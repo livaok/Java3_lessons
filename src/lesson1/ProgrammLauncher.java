@@ -18,26 +18,26 @@ public class ProgrammLauncher {
 
 		System.out.println(box1.compare(box2));
 
-//		Integer[] integers = {1, 2, 3, 4};
-//		Massiv<Integer> integerMassiv = new Massiv<Integer>(integers);
-//
-//		String[] strings = {"one", "two", "three", "for"};
-//		Massiv<String> stringMassiv = new Massiv<String>(strings);
-//
-//		Apple[] apples = {new Apple(), new Apple(), new Apple()};
-//		Massiv<Apple> appleMassiv = new Massiv<Apple>(apples);
-//
-//		stringMassiv.printArray();
-//		stringMassiv.changePlaces(0, 4);
-//		stringMassiv.printArray();
-//
-//		appleMassiv.printArray();
-//		appleMassiv.changePlaces(1, 2);
-//		appleMassiv.printArray();
-//
-//		integerMassiv.toArraylist();
-//		integerMassiv.addElement(5);
-//		integerMassiv.removeElement(1);
-//		integerMassiv.printList();
+		Integer[] integers = {1, 2, 3, 4};
+		Massiv<Integer> integerMassiv = new Massiv<Integer>(integers);
+
+		String[] strings = {"one", "two", "three", "for"};
+		Massiv<String> stringMassiv = new Massiv<String>(strings);
+
+		Apple[] apples = {new Apple(), new Apple(), new Apple()};
+		Massiv<Apple> appleMassiv = new Massiv<Apple>(apples);
+
+		stringMassiv.printArray();
+		stringMassiv.changePlaces(0, 4);
+		stringMassiv.printArray();
+
+		appleMassiv.printArray();
+		appleMassiv.changePlaces(1, 2);
+		appleMassiv.printArray();
+
+		integerMassiv.toArraylist();
+		integerMassiv.addElement(5);
+		integerMassiv.removeElement(1);
+		integerMassiv.printList();
 	}
 }
